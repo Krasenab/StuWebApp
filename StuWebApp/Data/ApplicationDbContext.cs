@@ -9,5 +9,6 @@ namespace StuWebApp.Data
             : base(options)
         {
         }
+        public DbSet<TableOne> TableOnes { get; set; }
     }
 }
